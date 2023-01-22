@@ -1,0 +1,82 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed;
+    border-color: greenyellow;
+}
+h3{
+    border: solid;
+    width: 150px;
+    font-family:'Courier New';
+    background-color: rgb(167, 236, 48);
+}
+h4{
+    color:#850808;
+    text-decoration-line: underline;
+}
+ul{
+    background-color: rgb(32, 19, 148);
+    color:aqua
+}
+#hobby{
+    border-style: inset;
+    border-color: blueviolet;
+    width: 150px;
+    list-style-type: circle;
+    cursor: pointer;
+}
+#skills{
+    border-style: dotted;
+    width: 150px;
+    list-style-type: decimal;
+    cursor: pointer;
+}
+#Education{
+    border-style: ridge;
+    border-color: rgb(161, 31, 41)  ;
+    width: 350px;
+}
+.works{
+    list-style-type: upper-roman;
+    padding: 0;
+    width: 350px;
+}
+.works p{
+    color:rgb(154, 123, 233);
+    border-style: double;
+    width: 320px;
+}
+#personal_qualities{
+    list-style-type: "\1F44D"; /*/ thumbs up sign /*/
+    width: 150px;
+}
+#personal_qualities li{
+    width: 150px;
+}   
+li:hover{
+    background-color: bisque;
+    color:rgb(4, 107, 107);
+}
+footer{
+    width: 309px;
+}
+Footer li a{
+    cursor: zoom-in;
+}
+a:visited{
+    color: rgb(167, 221, 18);
+}
+a:hover{
+    background-color: rgb(14, 231, 14));
+    color: gray;
+}
